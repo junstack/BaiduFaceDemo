@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_face"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/iv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/text"
+        android:contentDescription="@null" />
+
+    <FrameLayout
+        android:id="@+id/fl_face"
+        android:layout_width="288dp"
+        android:layout_height="352dp"
+        android:layout_gravity="center">
+
+        <com.das.face.widgets.AutoFitTextureView
+            android:id="@+id/TextureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_anim"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@mipmap/scan" />
+
+    </FrameLayout>
+
+</FrameLayout>

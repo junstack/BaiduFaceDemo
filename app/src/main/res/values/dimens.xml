@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialogui_round_corner_radius">5dp</dimen>
+    <dimen name="dialogui_l_round_corner_radius">10dp</dimen>
+    <dimen name="dialogui_margin_smid">14dp</dimen>
+    <dimen name="dialogui_toast_margin">64dp</dimen>
+</resources>

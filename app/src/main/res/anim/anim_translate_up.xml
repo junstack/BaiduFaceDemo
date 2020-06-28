@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--平移动画标签-->
+    <translate
+        android:duration="2000" android:fromXDelta="0%p" android:fromYDelta="100%p" android:toXDelta="0%p" android:toYDelta="-60%p" />
+</set>
